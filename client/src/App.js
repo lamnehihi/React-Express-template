@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./App.css";
 
 import BooksList from "./components/BooksList";
+import BooksList2 from "./components/BooksList2";
 
 //ant design
 import "antd/dist/antd.css"; // or 'antd/dist/antd.less';
@@ -60,7 +61,7 @@ class App extends Component {
             <Breadcrumb.Item>App</Breadcrumb.Item>
           </Breadcrumb>
           <div className="site-layout-content">
-            <BooksList books={books}/>
+            <BooksList2 books={books}/>
           </div>
         </Content>
         <Footer style={{ textAlign: "center" }}>
